@@ -1,0 +1,21 @@
+{
+  "name": "jefferson-neves-resume",
+  "version": "1.0.0",
+  "description": "Just my resume",
+  "private": true,
+  "scripts": {
+    "start": "browser-sync start --server ./src --files ./src",
+    "watch-css": "sass --watch src/scss:src/css",
+    "deploy:github": "git subtree push --prefix src origin gh-pages"
+  },
+  "author": "Adam Fortuna <adam@codeschool.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4.6",
+    "npm": ">=2.15"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta"
+  }
+}
